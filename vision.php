@@ -41,12 +41,15 @@
    
 
 
-        <section class="text-gray-600 body-font">
-            <div class=" py-24 mx-auto flex flex-col">
-              <div class="mx-auto ">
-                <div   class=" ">
-                  <img style= " object-fit: fill; height:80vh; margin-top: -1%; " alt="content" class="object-cover object-center h-full w-full" src="assets/img/school.png">
-                </div>
+        <section style="background-image: linear-gradient(rgba(255, 255, 255, 0.815), rgba(255, 255, 255, 0.859)), url(assets/img/school.jpg); background-size: cover; padding: 0 10em; margin-top: 10%"  class="text-gray-600 body-font">
+        
+            <div  class=" py-24  flex flex-col">
+            <div style="text-align: center;" class="section-title">
+            <h2>The</h2>
+            <p>Vision and Mission</p>
+          </div>
+              <div style="background-color: rgba(255, 255, 255, 0.7); border-radius: 2em; padding:3em" class="mx-auto ">
+               
                 <div class="flex flex-col sm:flex-row mt-10">
                   <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                    

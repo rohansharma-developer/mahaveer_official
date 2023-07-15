@@ -34,9 +34,9 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="./index.php">Home</a></li>
-          <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="about.php"><span>About</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="./theschool.php">The School</a></li>
+              
               <li><a href="./vision.php">Vision and Mission</a></li>
               <li><a href="./chairman.php">Chairman's Message</a></li>
               <li><a href="./principal.php">Principal's Message</a></li>

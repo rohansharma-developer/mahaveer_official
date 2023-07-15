@@ -210,3 +210,7 @@ document.addEventListener('DOMContentLoaded', function() {
       topPanel.style.width = event.clientX + skewHack + delta + 'px';
   });
 });
+
+
+
+
