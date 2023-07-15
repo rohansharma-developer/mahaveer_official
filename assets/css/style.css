@@ -2586,3 +2586,28 @@ input[type="radio"] {
   margin-right: 10px;
   color: #d9232d;
 }
+.sidebar {
+  position: fixed;
+  left: 2em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.sidebar-link i {
+  background-color: #fff;
+  padding: 1em 1.25em;
+  border-radius: 1em;
+  display: block;
+  box-shadow: 10px 0px 49px 1px rgba(0, 0, 0, 0.183);
+}
+.sidebar-link i:hover {
+  cursor: pointer;
+}
+.sidebar-link {
+  margin: 1em;
+}
+.sidebar-link:hover {
+  cursor: pointer;
+}
+.tooltip__custom {
+  position: fixed;
+}
