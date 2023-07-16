@@ -25,9 +25,24 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
 
+  <link href="assets/css/style.css" rel="stylesheet">
+<style>
+::-webkit-scrollbar {
+  background-color: transparent;
+  border-radius: 40px;
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #aeaeae;
+  border-radius: 5px;
+}
+.about_content {
+  height: 75vh;
+  width: 100%;
+  margin-top: 25vh;
+}
+</style>
 </head>
 
     
@@ -60,54 +75,61 @@
                     <a class="sidebar-link" onclick="vice()"><i class="bi">Vice Pricipal</i></a>
               </div>
                   <div class="ml-auto mr-6" style="width: 80%;">
-                  <div id="school" style="box-shadow: 10px 0px 49px 1px rgba(0, 0, 0, 0.183); border-radius: 1em; background-color: rgba(255, 255, 255, 0.255);" class="my-14 container mx-auto flex px-5 py-14 md:flex-row flex-col items-center">
-                    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">The School
+                  <div class="about_content" id="school">
+                    <div style="box-shadow: 10px 0px 49px 1px rgba(0, 0, 0, 0.183); border-radius: 1em; background-color: rgba(255, 255, 255, 0.255); height: 70vh; overflow-y: scroll;" class="my-14 p-14 set_height_about container">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">The School
               
-                      </h1>
-                      <p style="text-align: left;" class="mb-8 leading-relaxed">MAHAVEER INTERNATIONAL SCHOOL is the brainchild of the famous educationists Sh. K. D. Sharma, Sh. Dharmendra Bhardwaj and Ms. Manika Sharma, established in the year 2012, who had the vision and aim to provide an education which is holistic and could pace with the rapid changes, morally upright within the conducive environment to inculcate and instil the love and Conscience A Voice of God among the children.
-                        Mahaveer International identifies and develops the intellectual and creative talents of a diverse group of students. Within a supportive and caring preparatory environment, students are encouraged to achieve their finest in academics, athletics, and the arts.
-                        Our ultimate goal is to teach students to live humanely within the community in order to prepare them to meet the demands and responsibilities of the future in the broader world.
-                    </div>
-                    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                      <img class="object-cover object-center rounded" alt="hero" src="assets/img/training.jpg">
-                    </div>
-                  </div>
-                  <div id="vision" style="box-shadow: 10px 0px 49px 1px rgba(0, 0, 0, 0.183); border-radius: 1em; background-color: rgba(255, 255, 255, 0.255);" class="my-14 container mx-auto flex px-5 py-14 md:flex-row flex-col items-center">
-                    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Vision and Mission
-              
-                      </h1>
-                      <p style="text-align: left;" class="mb-8 leading-relaxed">MAHAVEER INTERNATIONAL SCHOOL is the brainchild of the famous educationists Sh. K. D. Sharma, Sh. Dharmendra Bhardwaj and Ms. Manika Sharma, established in the year 2012, who had the vision and aim to provide an education which is holistic and could pace with the rapid changes, morally upright within the conducive environment to inculcate and instil the love and Conscience A Voice of God among the children.
-                        Mahaveer International identifies and develops the intellectual and creative talents of a diverse group of students. Within a supportive and caring preparatory environment, students are encouraged to achieve their finest in academics, athletics, and the arts.
-                        Our ultimate goal is to teach students to live humanely within the community in order to prepare them to meet the demands and responsibilities of the future in the broader world.
-                    </div>
-                    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                      <img class="object-cover object-center rounded" alt="hero" src="assets/img/training.jpg">
-                    </div>
-                  </div>
-                  <div id="chairman" style="box-shadow: 10px 0px 49px 1px rgba(0, 0, 0, 0.183); border-radius: 1em; background-color: rgba(255, 255, 255, 0.255);" class="my-14 container mx-auto flex px-5 py-14 md:flex-row flex-col items-center">
-                   <div class="container mx-auto flex px-5 md:flex-row flex-col items-center">
-                            <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                              <img class="object-cover object-center rounded" alt="hero" src="assets/img/chairman_mep.png">
-                            </div>
-                            <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                              <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Mr. Dharmendra Bhardwaj
-                               
-                              </h1>
-                              <h4 style="font-weight: 700; color: #d9232d;">Chairperson</h4><br>
-                              <br>
-                              <h4 style="font-weight: 600;">HEARTY WELCOME TO MAHAVEER!</h4><br>
-                              <p style="text-align: left;" class="mb-8 leading-relaxed">Education is an integral element of a child’s school experience. The motto of Mahaveer International is “disciplined education with care.” Our school offers a high-quality education with a strong focus on character-development. A comprehensive range of co-curricular activities and environmental initiatives, in addition to a strong teaching programme, ensures that students have numerous opportunities to develop their potential and flourish in their areas of aptitude or interest.
-                                  I warmly invite you to explore Mahaveer International School as we can re-dedicate ourselves every day, to impart the very best education we can, to young minds.</p>
-                           
-                            </div>
-                    </div>
-                  </div>
-                  <div id="principal" style="box-shadow: 10px 0px 49px 1px rgba(0, 0, 0, 0.183); border-radius: 1em; background-color: rgba(255, 255, 255, 0.255);" class="my-14 container mx-auto flex px-5 py-14 md:flex-row flex-col items-center">
-                    <div class="container mx-auto flex px-5 md:flex-row flex-col items-center">
+                          </h1>
+                          <p style="text-align: left;" class="mb-8 leading-relaxed">MAHAVEER INTERNATIONAL SCHOOL is the brainchild of the famous educationists Sh. K. D. Sharma, Sh. Dharmendra Bhardwaj and Ms. Manika Sharma, established in the year 2012, who had the vision and aim to provide an education which is holistic and could pace with the rapid changes, morally upright within the conducive environment to inculcate and instil the love and Conscience A Voice of God among the children.
+                            Mahaveer International identifies and develops the intellectual and creative talents of a diverse group of students. Within a supportive and caring preparatory environment, students are encouraged to achieve their finest in academics, athletics, and the arts.
+                            Our ultimate goal is to teach students to live humanely within the community in order to prepare them to meet the demands and responsibilities of the future in the broader world.
                         
-                        <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center">
+                            </div>
+          <div class="col-lg-6">
+                              <img style="height: 60vh;" class="object-cover object-center rounded" alt="hero" src="assets/img/training.jpg">
+                           </div> 
+                           </div>
+                  </div>
+                  </div>
+                  <div class="about_content" id="vision">
+                    <div style="box-shadow: 10px 0px 49px 1px rgba(0, 0, 0, 0.183); border-radius: 1em; background-color: rgba(255, 255, 255, 0.255); height: 70vh; overflow-y: scroll;" class="my-14 p-14 set_height_about container">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">The Vision
+              
+                          </h1>
+                          <p style="text-align: left;" class="mb-8 leading-relaxed">At Mahaveer International school, we recognize that it is imperative to impart an educational experience that is top-notch in every respect and one which prepares children for global citizenship. We are a school with an Indian mind, an Indian heart and an Indian soul; a school that celebrates the culture of excellence and is an embodiment of values. We believe that a curriculum of excellence, with a global dimension, is central to the education of children, in order to help them face the challenges of the 21st century with confidence and strength of character. </p>
+                            </div>
+          <div class="col-lg-6">
+                              <img style="height: 60vh;" class="object-cover object-center rounded" alt="hero" src="assets/img/teacher.png">
+                           </div> 
+                           </div>
+                  </div>
+                  </div>
+                  <div class="about_content" id="chairman">
+                    <div style="box-shadow: 10px 0px 49px 1px rgba(0, 0, 0, 0.183); border-radius: 1em; background-color: rgba(255, 255, 255, 0.255); height: 70vh; overflow-y: scroll;" class="my-14 p-14 set_height_about container">
+                      <div class="row">
+                        <div class="col-lg-8">
+                            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Mr. Dharmendra Bhardwaj
+                             
+                            </h1>
+                            <h4 style="font-weight: 700; color: #d9232d;">Chairman</h4><br>
+                            <br>
+                            <h4 style="font-weight: 600;">HEARTY WELCOME TO MAHAVEER!</h4><br>
+                            <p style="text-align: left;" class="mb-8 leading-relaxed">Education is an integral element of a child’s school experience. The motto of Mahaveer International is “disciplined education with care.” Our school offers a high-quality education with a strong focus on character-development. A comprehensive range of co-curricular activities and environmental initiatives, in addition to a strong teaching programme, ensures that students have numerous opportunities to develop their potential and flourish in their areas of aptitude or interest. I warmly invite you to explore Mahaveer International School as we can re-dedicate ourselves every day, to impart the very best education we can, to young minds.
+                            </div>
+          <div class="col-lg-4">
+                              <img style="height: 60vh;" class="object-cover object-center rounded" alt="hero" src="assets/img/chairman_mep.png">
+                           </div> 
+                           </div>
+                  </div>
+                  </div>
+                  <div class="about_content" id="principal">
+                  <div style="box-shadow: 10px 0px 49px 1px rgba(0, 0, 0, 0.183); border-radius: 1em; background-color: rgba(255, 255, 255, 0.255); height: 70vh; overflow-y: scroll;" class="my-14 p-14 set_height_about container">
+                    <div class="row">
+                      <div class="col-lg-8">
                           <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Mr. Naveen Kumar Sharma
                            
                           </h1>
@@ -118,34 +140,34 @@
                               Our school also promotes character development and instils values such as “Respect yourself, respect others,” and “Choose wisely and conclude thoughtfully,” which serve as a guide for our pupils as they pursue skills and knowledge.
                               I warmly invite you to Mahaveer International School and procure the best education to your child.</p>
                        
-                        </div>
-                        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                            <img style="height: 60vh;" class="object-cover object-center rounded" alt="hero" src="assets/img/Naveen_Kumar_Sharma-e1650178450709.jpeg">
                           </div>
-                      </div>
+        <div class="col-lg-4">
+                            <img style="height: 60vh;" class="object-cover object-center rounded" alt="hero" src="assets/img/Naveen_Kumar_Sharma-e1650178450709.jpeg">
+                         </div> 
+                         </div>
                 </div>
-                  <div id="vice_principal" style="box-shadow: 10px 0px 49px 1px rgba(0, 0, 0, 0.183); border-radius: 1em; background-color: rgba(255, 255, 255, 0.255);" class="my-14 container mx-auto flex px-5 py-14 md:flex-row flex-col items-center">
-                    <div class="container mx-auto flex px-5  md:flex-row flex-col items-center">
-                        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                          <img style="width: 100%; height: 100vh;" class="object-cover object-center rounded" alt="hero" src="assets/img/Vice-Principal.jpeg">
-                        </div>
-                        <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"> Garima Singh
+                <div class="about_content" id="vice_principal">  
+                  <div style="box-shadow: 10px 0px 49px 1px rgba(0, 0, 0, 0.183); border-radius: 1em; background-color: rgba(255, 255, 255, 0.255); height: 70vh; overflow-y: scroll;" class="my-14 p-14 set_height_about container">
+                    <div class="row">
+                      <div class="col-lg-8">
+                          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Garima Singh
                            
                           </h1>
                           <h4 style="font-weight: 700; color: #d9232d;">Vice Principal</h4><br>
                           <br>
-                          <h4 style="font-weight: 600;"></h4><br>
-                          <p style="text-align: left;" class="mb-8 leading-relaxed">The first step into school is that giant step forward, where children embark on the great adventure of discovering the wide world outside and the depth of the world within. As we hold the little finger and guide the young ones forward, we realize our responsibility of nurturing their curiosity, igniting their minds to pierce the skies, helping them to discover the world of books and richness of experience, ponder on the “mystery of birds in the sky, the bees in the sun, the flowers on a green hill”, and today master the magic of technology and the limitless span of cyber space.
-                              We, at Mahaveer International School believe that education is a process of awakening individual potential to creative knowledge, but more importantly enlightening students with the wisdom that they must “never put a price tag on their heart and soul”. A good career is important but a good character is paramount. We believe that ‘individuals’ are the atoms that hold tremendous power within to serve as agents of change and thus are confident that our students, enriched with a sense of high morality and social responsibility will be makers of a virtuous society. I firmly believe that every human being endowed with various talents and skills is a precious gift of God. I am very pleased to bring to your notice that Mahaveer International School is one of those schools which provide ample opportunities along with a value based wholesome quality education to nurture the inner potentials of every child.In a world of stiff competition, strife and unrealistic aspirations, it calls for sensitivity on our part as educators to help children understand that predicament is common to everyone. Problems and challenges need to be faced courageously with conviction in our principles and confidence in our inner strength and dreams.</p>
+                          <p style="text-align: left;" class="mb-8 leading-relaxed">The first step into school is that giant step forward, where children embark on the great adventure of discovering the wide world outside and the depth of the world within. As we hold the little finger and guide the young ones forward, we realize our responsibility of nurturing their curiosity, igniting their minds to pierce the skies, helping them to discover the world of books and richness of experience, ponder on the “mystery of birds in the sky, the bees in the sun, the flowers on a green hill”, and today master the magic of technology and the limitless span of cyber space. We, at Mahaveer International School believe that education is a process of awakening individual potential to creative knowledge, but more importantly enlightening students with the wisdom that they must “never put a price tag on their heart and soul”. A good career is important but a good character is paramount. We believe that ‘individuals’ are the atoms that hold tremendous power within to serve as agents of change and thus are confident that our students, enriched with a sense of high morality and social responsibility will be makers of a virtuous society. I firmly believe that every human being endowed with various talents and skills is a precious gift of God. I am very pleased to bring to your notice that Mahaveer International School is one of those schools which provide ample opportunities along with a value based wholesome quality education to nurture the inner potentials of every child.In a world of stiff competition, strife and unrealistic aspirations, it calls for sensitivity on our part as educators to help children understand that predicament is common to everyone. Problems and challenges need to be faced courageously with conviction in our principles and confidence in our inner strength and dreams.</p>
                        
-                        </div>
-                      </div>
-</div>          </div>
+                          </div>
+        <div class="col-lg-4">
+                            <img style="height: 60vh; width: 100%;" class="object-cover object-center rounded" alt="hero" src="assets/img/Vice-Principal.jpeg">
+                         </div> 
+                         </div>
+                </div></div>
 </section>
 </main>
 <script>
-    function school() {
+document.getElementById("school").scrollIntoView(false);
+function school() {
 document.getElementById("school").scrollIntoView(false);
     }
     function vision() {

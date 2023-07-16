@@ -2598,6 +2598,7 @@ input[type="radio"] {
   border-radius: 1em;
   display: block;
   box-shadow: 10px 0px 49px 1px rgba(0, 0, 0, 0.183);
+  font-weight: bold;
 }
 .sidebar-link i:hover {
   cursor: pointer;
@@ -2610,4 +2611,8 @@ input[type="radio"] {
 }
 .tooltip__custom {
   position: fixed;
+}
+.set_height_about {
+  height: 70vh !important;
+  overflow-y:visible;
 }
